@@ -19,7 +19,7 @@ public class Experiment6_06 {
         l = input.nextInt();
         System.out.print("Input height = ");
         t = input.nextInt();
-    
+        input.close();
     
         L = calculateArea(p,l);
         System.out.println("Area of the rectangle = "+ L);
